@@ -16,17 +16,118 @@ function SudokuBoard(sudoku, onCellValueChange) {
   return (
   <table className="sudoku">
     <tbody>
-    { sudoku.rows.map((row, idx) => (
-        <tr key={idx}>
-            { row.map(cell => (
-                <td key={cell.col}>
-                    <Square/>
-                </td>
-            )) }
-        </tr>
-    )) }
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
+      <tr>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+        <td><Square value={1}/></td>
+      </tr>
     </tbody>
-    </table>
+  </table>
   );
 }
 
